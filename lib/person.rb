@@ -10,5 +10,5 @@ end
 def name 
   @name
 end
-
+beyonce = person.new("Beyonce")
 end
