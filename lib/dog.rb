@@ -3,17 +3,6 @@ class Dog
     @name = name
     @breed = breed
   end
-  def breed= (breed)
-    if breed == nil 
-      @breed = "Mutt"
-    else 
-      @breed = breed
-    end
-    
-  end
-  def breed
-    @breed
-  end
   
   def name= (name)
     @name = name
@@ -21,6 +10,18 @@ class Dog
   
   def name 
     @name
+  end
+  
+  def breed= (breed)
+    if breed == nil 
+      @breed = "Mutt"
+    else 
+      @breed = breed
+    end
+  end
+  
+  def breed
+    @breed
   end
   
 end
