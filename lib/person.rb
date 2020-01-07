@@ -1,11 +1,14 @@
 class Person
-  
-def intialize("#{name}")
-  @name = name 
+def intialize (name)
+  @name = name
+end
+
+def name= (name)
+  @name = name
 end
 
 def name 
-  puts @name
+  @name
 end
 
 end
